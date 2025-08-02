@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.egg-info/
+.dist/
+build/
+dist/
+spider/
+logs/
+
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit cache and temp files
+.streamlit/
+# (Optional) Exclude Streamlit secrets
+secrets.toml
+
+# SQLite databases and user-uploaded CSVs
+*.sqlite
+*.db
+*.csv
+
+# Model files and large assets (adjust extensions as needed)
+*.pt
+*.pth
+*.h5
+*.joblib
+*.onnx
+text2sql_model_m3_v4_anti_hallucination/
+models/
+checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode and editor files
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Logo and generated images (optional, if not static/versioned)
+*.png
+*.jpg
+*.svg
+
+# Environment variable files
+.env
+
+# Python virtual environment folders
+.venv/
+
+huggingface_model.py
+compare_models.py
